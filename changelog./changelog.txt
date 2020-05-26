@@ -1,159 +1,47 @@
-KangKong 25.05.20
+ChangeLog KangKong 25.05.20
 
 ====================
      05-25-2020
 ====================
-[manifest]
-manifest: Intro misc <5 hours ago> [5aa43bf]
-by: mrhainavn (mr.hai.na.vn@gmail.com)
-manifest: update and nt <5 hours ago> [0061956]
-by: mrhainavn (mr.hai.na.vn@gmail.com)
-[device/aosip/sepolicy]
-common: Move aux camera whitelist prop to vendor <9 days ago> [9b98eaf]
-by: dianlujitao (dianlujitao@lineageos.org)
-common: Expose aux camera {black,white}list props <2 weeks ago> [ec42744]
-by: dianlujitao (dianlujitao@lineageos.org)
-[frameworks/base]
-base: Settings: Allow showing SB ticker for media [1/2] <30 hours ago> [d2d0fe197ed]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-SystemUI: Bring back good ol' circle battery style [1/2] <4 months ago> [f9ce2ed4170]
-by: Luca Stefani (luca.stefani.ge1@gmail.com)
-SystemUI: QS: LteTile: Launch network settings when long pressing <2 days ago> [aa9e5fe7953]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-SystemUI: QS: Don't launch details view when pressing on labels <2 days ago> [8489b2bc0ad]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-SystemUI: QS: Allow overriding panels switch in specific tiles <3 days ago> [305c38e169d]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "Revert "SystemUI: Enable and fix QS detail view, adapt layout to Pie"" <2 days ago> [106fcef7d9b]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Allow choosing a custom color for pressed FOD [1/2] <6 days ago> [9f587bdbc54]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DefaultPermissionGrantPolicy: Remove uneeded permissions <7 days ago> [8e9229dc378]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Forward port CM Screen Security settings (1/2) <5 years ago> [de8b3f4f6e7]
-by: Michael Bestas (mikeioannina@gmail.com)
-Fwb:  Rework variable refresh rate settings [1/2] <16 hours ago> [ec73f57eb46]
-by: Pranav Vashi (neobuddy89@gmail.com)
-SystemUI: FPS Info Overlay & Tile <3 months ago> [aeb4f38be10]
-by: Marko Man (darkobas@gmail.com)
-SystemUI: add CPU info overlay <2 years, 9 months ago> [9fe63da9161]
-by: maxwen (max.weninger@gmail.com)
-Revert "[1/2] base: add CPU info overlay" <17 hours ago> [4ced7cbdd0c]
-by: mrhainavn (mr.hai.na.vn@gmail.com)
-[frameworks/native]
-Revert "sf: Add guard for FOD hacks" <4 hours ago> [393b094db]
-by: mrhainavn (mr.hai.na.vn@gmail.com)
-Revert "Correct FOD flag location" <4 hours ago> [7bc921583]
-by: mrhainavn (mr.hai.na.vn@gmail.com)
-sf: Define Phase Offsets for PERF Refresh Rate config <5 months ago> [272b7566f]
-by: Sushil Chauhan (sushilchauhan@codeaurora.org)
-Fix 44237b48c6849d7bdbcb1a5e9558d43d44015081 <4 months ago> [31c43fe51]
-by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
-sf: Do not switch to protected GPU context for secure camera usecases. <6 months ago> [e6d2987f7]
-by: Pullakavi Srinivas (spullaka@codeaurora.org)
-sf: Enable UBWC on virtual display scratch buffer <5 months ago> [763c8a6a0]
-by: Bharath Gopal (gopalb@codeaurora.org)
-sf: Restart model sync on fps change. <6 months ago> [cc180951c]
-by: Pullakavi Srinivas (spullaka@codeaurora.org)
-sf: PhaseOffsets: Add missing low refresh rates <4 months ago> [30fd0b3eb]
-by: Jyotiraditya (jyotiraditya@aospa.co)
-Correct FOD flag location <2 days ago> [c15c0197a]
-by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
-sf: Add guard for FOD hacks <2 days ago> [0448a01f7]
-by: Pranav Vashi (neobuddy89@gmail.com)
-Use BKK's hwcomposer hacks to properly display FOD layers <3 months ago> [8560187e4]
-by: Pierre-Hugues Husson (phh@phh.me)
-[packages/apps/Dialer]
-dialer: Move string to aosip <14 hours ago> [022662ba3]
-by: mrhainavn (mr.hai.na.vn@gmail.com)
-Revert "Add autorecord feature" <14 hours ago> [961797b3c]
-by: mrhainavn (mr.hai.na.vn@gmail.com)
-Revert "Fix npe when auto-recording is enabled" <14 hours ago> [2a390870a]
-by: mrhainavn (mr.hai.na.vn@gmail.com)
-Revert "Dialer: Fix leaked ServiceConnection in CallRecorderService" <14 hours ago> [34ae9b1b4]
-by: mrhainavn (mr.hai.na.vn@gmail.com)
-Automatic translation import <3 weeks ago> [96280a607]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-[packages/apps/Settings]
-Settings: update vi <6 hours ago> [e858cea915]
-by: mrhainavn (mr.hai.na.vn@gmail.com)
-Settings: Add boot receiver for SELinux switch <7 days ago> [fbcce3f72f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Settings: Forward port lock pattern grid size (2/2) <6 years ago> [a9dca25258]
-by: Michael Bestas (mikeioannina@gmail.com)
-Settings: Move refresh rate setting strings added to DerpQuest <15 hours ago> [179e890d64]
-by: mrhainavn (mr.hai.na.vn@gmail.com)
-by: Sushil Chauhan (sushilchauhan@codeaurora.org)
-Fix 44237b48c6849d7bdbcb1a5e9558d43d44015081 <4 months ago> [31c43fe51]
-by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
-sf: Do not switch to protected GPU context for secure camera usecases. <6 months ago> [e6d2987f7]
-by: Pullakavi Srinivas (spullaka@codeaurora.org)
-sf: Enable UBWC on virtual display scratch buffer <5 months ago> [763c8a6a0]
-by: Bharath Gopal (gopalb@codeaurora.org)
-sf: Restart model sync on fps change. <6 months ago> [cc180951c]
-by: Pullakavi Srinivas (spullaka@codeaurora.org)
-sf: PhaseOffsets: Add missing low refresh rates <4 months ago> [30fd0b3eb]
-by: Jyotiraditya (jyotiraditya@aospa.co)
-Correct FOD flag location <2 days ago> [c15c0197a]
-by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
-sf: Add guard for FOD hacks <2 days ago> [0448a01f7]
-by: Pranav Vashi (neobuddy89@gmail.com)
-Use BKK's hwcomposer hacks to properly display FOD layers <3 months ago> [8560187e4]
-by: Pierre-Hugues Husson (phh@phh.me)
-[packages/apps/Dialer]
-dialer: Move string to aosip <14 hours ago> [022662ba3]
-by: mrhainavn (mr.hai.na.vn@gmail.com)
-Revert "Add autorecord feature" <14 hours ago> [961797b3c]
-by: mrhainavn (mr.hai.na.vn@gmail.com)
-Revert "Fix npe when auto-recording is enabled" <14 hours ago> [2a390870a]
-by: mrhainavn (mr.hai.na.vn@gmail.com)
-Revert "Dialer: Fix leaked ServiceConnection in CallRecorderService" <14 hours ago> [34ae9b1b4]
-by: mrhainavn (mr.hai.na.vn@gmail.com)
-Automatic translation import <3 weeks ago> [96280a607]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-[packages/apps/Settings]
-Settings: update vi <6 hours ago> [e858cea915]
-by: mrhainavn (mr.hai.na.vn@gmail.com)
-Settings: Add boot receiver for SELinux switch <7 days ago> [fbcce3f72f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Settings: Forward port lock pattern grid size (2/2) <6 years ago> [a9dca25258]
-by: Michael Bestas (mikeioannina@gmail.com)
-Settings: Move refresh rate setting strings added to DerpQuest <15 hours ago> [179e890d64]
-by: mrhainavn (mr.hai.na.vn@gmail.com)
-Updater: vn string <14 hours ago> [69345fe]
-by: mrhainavn (mr.hai.na.vn@gmail.com)
-====================
-     05-24-2020
-====================
 
-[device/qcom/sepolicy]
-sepolicy: Unlabel aux camera whitelist prop (#2) <2 days ago> [bfcbd6ec]
-by: Adrian (adrianszymanski242@gmail.com)
+art: extend the supported cpu_variant list for arm64
 
-[device/qcom/sepolicy-legacy-um]
-sepolicy: Unlabel aux camera whitelist prop <2 weeks ago> [61163938]
-by: dianlujitao (dianlujitao@lineageos.org)
+Add FaceUnlock
 
-[frameworks/base]
-Fw_base - Breathing missedcall/sms/voicemail [1/5] <7 months ago> [11506bfb4bd]
-by: garwedgess (garethwilliams21@gmail.com)
-base: update derpshit string vn <2 weeks ago> [4cfaa63ab7f]
-by: mrhainavn (mr.hai.na.vn@gmail.com)
-Add kill button to notification guts [1/2] <1 year, 6 months ago> [526d3ca7f11]
-by: Daniel Koman (dankoman30@gmail.com)
-Enlarge EPSILON to 0.01 for android.display.cts.DisplayTest#testModeSwitch pass <4 months ago> [b30d567321c]
-by: peng.gu (peng.gu@unisoc.com)
-Fwb: Add refresh rate setting [1/2] <6 months ago> [5d777a2eb97]
-by: Anushek Prasal (anushekprasal@gmail.com)
-FWB: Dialer auto proximity speakerphone [1/2] <1 year ago> [bfe5cd70a8c]
-by: dankoman30 (dankoman30@gmail.com)
-AmbientDisplay: Unregister proximity when screen off fod is active <5 weeks ago> [30240a675b2]
-by: PMS22 (pratham220399@gmail.com)
-FingerprintDialogView: Improve on fod devices <6 months ago> [81432e8bc4d]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
-SystemUI: FingerprintDialogView: Use accent color instead of teal <6 months ago> [e54acc85c42]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
-base: Disable DT2D when Screen Off FOD is enabled <6 weeks ago> [e480b48ddf4]
-by: Anushek Prasal (anushekprasal@gmail.com)
-SystemUI: Display blanks after doze when Screen Off FOD is enabled <3 weeks ago> [e5c0d73f87a]
-by: Anushek Prasal (anushekprasal@gmail.com)
+FW_Base - XuiMod: Toast Animations
+
+Add interpolators to qs tiles animation
+
+Add faster qs tile animation speeds
+
+Add animations to quick settings tiles
+
+Revert "toasts: Use Animation_Toast_Material"
+
+FODCircleView: Update missing v1.1 on Android.bp
+
+SystemUI: Conditionally hide extra biometric help on keyguard
+
+base: Settings: Allow showing SB ticker for media
+
+SystemUI: Bring back good ol' circle battery style
+
+SystemUI: QS: LteTile: Launch network settings when long pressing
+
+SystemUI: QS: Don't launch details view when pressing on labels
+
+SystemUI: QS: Allow overriding panels switch in specific tiles
+
+Revert "Revert "SystemUI: Enable and fix QS detail view, adapt layout to Pie"
+
+base: Allow choosing a custom color for pressed FOD [1/2] 
+
+DefaultPermissionGrantPolicy: Remove uneeded permissions 
+
+Forward port CM Screen Security settings 
+
+Fwb: Allow to set default refresh rate value 
+
+Fw_base - Breathing missedcall/sms/voicemail 
+
+base: update derpshit string vn 
