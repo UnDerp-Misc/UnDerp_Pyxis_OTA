@@ -1,4 +1,4 @@
-ChangeLog KangKong 25.05.20
+ChangeLog KangKong 27.05.20
 
 ====================
      05-25-2020
@@ -45,3 +45,93 @@ Fwb: Allow to set default refresh rate value
 Fw_base - Breathing missedcall/sms/voicemail 
 
 base: update derpshit string vn 
+====================
+     05-26-2020
+====================
+
+[manifest]
+manifest: fix derp 
+
+manifest: track OmniJaws 
+
+[frameworks/base]
+Base: Fixed error build for omnijaws weather 
+
+[hardware/aosip/interfaces]
+Revert "Initial audio amplifier HAL" 
+
+[packages/apps/Dialer]
+Fix Dialer memory leaks 
+by: Mengjun Leng (quic_mengju@quicinc.com)
+AospThemeImpl: fully white might NOT be uninitialized! 
+Improve contatcts layout 
+
+[packages/apps/Settings]
+Settings: add back weather parts 
+
+[vendor/aosip]
+vendor: Build OmniJaws 
+
+[packages/apps/DerpQuest]
+DerpQuest: Edit list about UnDerp
+DerpQuest: Add keyguard weather style 
+DerpQuest: Update vi string 
+DerpQuest: Weather: Add switches to show city/temp on lockscreen [2/2] 
+DerpQuest: Add back weather parts [3/3] 
+
+[device/xiaomi/pyxis]
+pyxis: Update media configs 
+pyxis: Compile libhwui in perf mode 
+pyxis: Enable sdclang 
+pyxis: Update audio policy configuration from stock
+pyxis: remove sepolicy from hal_power_stats 
+Revert "pyxis: Fix ANX can't read props sepolicy*" 
+pyxis: add partxiaomi doze custom, dimming
+pyxis: fix fod
+
+[vendor/MiuiCamera]
+Revert "Add resources for different camera sensors" 
+Revert "Update apk" 
+
+
+====================
+     05-27-2020
+====================
+
+[device/aosip/sepolicy]
+Revert "common: Expose aux camera {black,white}list props"
+Revert "common: Move aux camera whitelist prop to vendor" 
+
+[frameworks/base]
+core: move OmniJaws client to its new home
+WeatherTile: Send weather info to a Secondary Label 
+Weather: Add switches to show city/temp on lockscreen 
+base: SystemUI: make keyguard weather icon smaller 
+Weather tile: Use the alternate apps first 
+Weather tile longclick: alternative weather apps when google weather not installed 
+WeatherTile: Start Google Weather on LongClick 
+base: SystemUI: add keyguard weather style (1/2) 
+base: add weather to keyguardSlice 
+base: SystemUI: make keyguard weather icon smaller 
+Weather tile: Use the alternate apps first 
+Weather tile longclick: alternative weather apps when google weather not installed 
+WeatherTile: Start Google Weather on LongClick 
+base: SystemUI: add keyguard weather style (1/2) 
+base: add weather to keyguardSlice 
+Base: fix initial kick off after boot 
+base: SystemUI: keyguard weather view 
+Base: add back weather parts 
+Fwb: Max Lockscreen Notification count 
+FW_Base - XuiMod: Toast Animations 
+Add interpolators to qs tiles animation 
+Add faster qs tile animation speeds (1/2)
+Add animations to quick settings tiles [1/2] 
+Revert "toasts: Use Animation_Toast_Material" 
+FODCircleView: Update missing v1.1 on Android.bp 
+SystemUI: Conditionally hide extra biometric help on keyguard 
+base: Settings: Allow showing SB ticker for media [1/2] 
+SystemUI: Bring back good ol' circle battery style [1/2] 
+SystemUI: QS: LteTile: Launch network settings when long pressing
+SystemUI: QS: Don't launch details view when pressing on labels
+SystemUI: QS: Allow overriding panels switch in specific tiles 
+Revert "Revert "SystemUI: Enable and fix QS detail view, adapt layout to Pie""
