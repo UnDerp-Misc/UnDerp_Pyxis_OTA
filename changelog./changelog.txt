@@ -1,7 +1,91 @@
-ChangeLog KangKong 27.05.20
+ChangeLog KangKong 30.05.20
+
 
 ====================
-     05-25-2020
+     05-30-2020
+====================
+[frameworks/base]
+Fwb: Fix context symbol location 
+[packages/apps/Settings]
+Settings: Tweak some search dimens 
+SettingsBaseActivity: use androidX CardView 
+For now disable oneui actionbar for submenus - due to bug delayed for future update - leave homepage one active 
+[packages/apps/DerpQuest]
+what the feck?
+[device/xiaomi/pyxis]
+pyxis: nuke maxlimit notification
+pyxis: remove unneed overlay 
+====================
+     05-29-2020
+====================
+[frameworks/base]
+Base: Add more Logo Styles On Statusbar [1/2] 
+base: Add permissions for OmniJaws 
+[1/2] SystemUI: Introduce Adaptive Playback
+OneUI-like settings actionbar [1/3] todo: add settings observer so you won't need to restart settings app to toggle it
+Base: Add string aosip 
+OxygenOS styled dismiss all button 
+Base: Add toggle for notifications smart reply [1/2]
+Base: QS Header data usage info [1/2] 
+Port "Option to hide Adb notification icon (1/2)" 
+Base: Token missing symbol
+Base: Token target OmniJawsClient 
+
+[packages/apps/Matlog]
+MatLog: cleanup unused resources and prepare for translate
+[packages/apps/Settings]
+OneUI-like settings actionbar [2/3] todo: add settings observer so you won't need to restart settings app to toggle it 
+Settings: [2/2] Settings: Introduce Adaptive Playback 
+Developer options toast insulter 
+
+[packages/apps/DerpQuest]
+DerpQuest: Add more Logo Styles On Statusbar 
+OneUI-like settings actionbar [3/3] todo: add settings observer so you won't need to restart settings app to toggle it 
+DerpQuest: OxygenOS styled dismiss all button [2/2]
+DerpQuest: Add toggle for notifications smart reply [2/2] 
+DerpQuest: QS Header data usage info [2/2] 
+Port "Option to hide Adb notification icon (2/2)" 
+DerpQuest: Statusbar weather [2/2]
+DerpQuest: LS Weather Temp & City Fonts [2/2] 
+DerpQuest: Welcome Back Lockscreen Item Colors [2/2] **SDB: Remove Lock Icon color options for Q
+DerpQuest: Add Toggle for LockWeather Image [2/2] 
+
+[device/xiaomi/pyxis]
+pyxis: Auto Dismisses Keyguard face unlock 
+Revert "pyxis: Build faceunlock" 
+Revert "pyxis: remove sepolicy from hal_power_stats"
+
+====================
+     05-28-2020
+====================
+
+[device/qcom/sepolicy-legacy]
+sepolicy: Add access policy for charger 
+sepolicy-legacy: Allow Snap to read camera props 
+sepolicy : Add rule to set property for wlan driver/fw ver info 
+sepolicy: Policy fix for emmc based rpmb partition 
+sepolicy: provide rules for cryptfs_hw hal 
+[frameworks/base]
+FWB: Statusbar weather [1/2] 
+LS Weather Temp & City Fonts [1/2] 
+Base: Welcome Back Lockscreen Item Colors [1/2] 
+Fix space when WeatherImage is disabled 
+Base: Add Toggle for LockWeather Image [1/2] 
+Return: Listanimation Views and Interpolator [1/2] 
+Base: Rotation anim to Power and reboot menu [1/2] 
+Base: Add 7 more power menu animations [1/2]
+Base: Power Menu animations [1/2] 
+[packages/apps/Dialer]
+InCallUI: SmartMute 
+[packages/apps/Matlog]
+MatLog: fix widget 
+[packages/apps/DerpQuest]
+DerpQuest: Listanimation Views and Interpolator [2/2] 
+DerpQuest: Rotation anim to Power and reboot menu [2/2] 
+DerpQuest: Add 7 more power menu animations [2/2] 
+
+====================
+     05-27-2020
 ====================
 
 art: extend the supported cpu_variant list for arm64
@@ -95,7 +179,7 @@ Revert "Update apk"
 
 
 ====================
-     05-27-2020
+     05-25-2020
 ====================
 
 [device/aosip/sepolicy]

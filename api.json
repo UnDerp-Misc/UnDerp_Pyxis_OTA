@@ -1,12 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1590602302,
-      "filename": "UnDerp-10-KangKong-pyxis-20200527.zip",
-      "id": "e1f564bbb6f0cb3f22fbbcebb4410624fbb000c2",
+      "datetime": 1590875865,
+      "filename": "UnDerp-10-KangKong-pyxis-20200530.zip",
+      "device": "pyxis",
+      "id": "c884940c80537ba247de8e800174ea19255decf0",
       "romtype": "UNOFFICIAL",
-      "size": 1296222098,
-      "url": "https://sourceforge.net/projects/underp/files/pyxis/UnDerp-10-KangKong-pyxis-20200527.zip/download",
+      "size": 1300438696,
+      "url": "https://sourceforge.net/projects/underp/files/pyxis/UnDerp-10-KangKong-pyxis-20200530.zip/download",
       "version": "10"
     }
   ]
